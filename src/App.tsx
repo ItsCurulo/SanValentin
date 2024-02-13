@@ -1,11 +1,11 @@
 import { useState } from "react";
 import "./App.css";
 
+//añade aquí tus frases
 const phrases = [
   "No ",
   "¿Estás segura?",
   "¿Segura de verdad?",
-  "Irene porfa",
   "No me hagas esto",
   "Voy a lloraaar :(",
   "Me rompes el corazón",
@@ -13,7 +13,6 @@ const phrases = [
   "NO SEAAAAS MALAAA",
   "Por fa por fa por fa",
   "AL FINAL NO PEGAMOS 😡",
-  "PERO SERÁS CHIQUITAAA",
   "DI QUE SI AAA",
   "DI QUE SI AAAA",
   "DI QUE SI AAAAA",
@@ -43,6 +42,7 @@ function App() {
         <>
           <img
             alt="bears kissing"
+            //puedes cambiar el gif
             src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif"
             className="gif"
           />
@@ -52,6 +52,7 @@ function App() {
         <>
           <img
             alt="bear with hearts"
+              //puedes cambiar el gif
             src="https://c.tenor.com/Vy46BTSo3hsAAAAC/tenor.gif"
             className="gif"
           />
