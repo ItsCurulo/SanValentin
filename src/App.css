@@ -1,0 +1,41 @@
+/* Estilos CSS para dar un estilo vintage pastel */
+
+/* Fondo con textura */
+.valentine-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5e1da; /* Color de fondo pastel */
+  background-image: url("ruta/a/textura.png"); /* Textura vintage */
+}
+
+/* Estilos de tipografía */
+.valentine-container h1,
+.valentine-container h2,
+.valentine-container h3 {
+  font-family: "Georgia", serif; /* Fuente serif clásica */
+}
+
+.valentine-container p {
+  font-family: "Times New Roman", serif; /* Otra opción de fuente serif */
+}
+
+/* Colores pastel para botones */
+.valentine-container .yesButton {
+  background-color: #b8d9a9; /* Verde pastel */
+  color: #4a4e4d; /* Color de texto oscuro */
+}
+
+.valentine-container .noButton {
+  background-color: #f8a1a4; /* Rosa pastel */
+  color: #4a4e4d; /* Color de texto oscuro */
+}
+
+/* Estilos de imagen vintage */
+.valentine-container img {
+  filter: sepia(0.5) saturate(1.2) contrast(0.8); /* Filtro vintage */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
